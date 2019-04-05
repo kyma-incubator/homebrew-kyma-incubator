@@ -1,5 +1,5 @@
 ## Homebrew formulas for kyma-incubator projects
-Use this repo to probive homebrew formulas to the kyma-incubator projects/tools
+Use this repo to provide homebrew formulas to the kyma-incubator projects and tools
 
 ### Installation
 Add the this repo as a brew tap: `brew tap kyma-incubator/kyma-incubator`
