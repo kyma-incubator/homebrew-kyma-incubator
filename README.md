@@ -6,7 +6,7 @@ Add the this repo as a brew tap: `brew tap kyma-incubator/kyma-incubator`
 
 Then install the desired formula: `brew install kyma-incubator/kyma-incubator/<formula_name>`
 
-Ex, install the latest release of KymaCLI:
+For example, install the latest release of Kyma-CLI:
 
 	brew tap kyma-incubator/kyma-incubator
 	brew install kyma-incubator/kyma-incubator/kyma-cli
@@ -14,6 +14,5 @@ Ex, install the latest release of KymaCLI:
 
 To install cutting-edge version of the application add `--HEAD` to the `brew install` command
 
-
 ### Contribution
-When adding formulas, please follow the general recomendations [of the Formula CookBook](https://docs.brew.sh/Formula-Cookbook)
+When adding formulas, please follow the general recomendations of the [Formula CookBook](https://docs.brew.sh/Formula-Cookbook)
