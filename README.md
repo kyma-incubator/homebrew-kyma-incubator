@@ -12,7 +12,7 @@ Ex, install the latest release of KymaCLI:
 	brew install kyma-incubator/kyma-incubator/kyma-cli
 
 
-To install cutting-edge of the application add `--HEAD` to the `brew install` command
+To install cutting-edge version of the application add `--HEAD` to the `brew install` command
 
 
 ### Contribution
