@@ -3,7 +3,7 @@ class KymaCli < Formula
   homepage "https://kyma-project.io"
   url "https://github.com/kyma-incubator/kyma-cli.git",
     :tag => "v0.5.0",
-    :revision => "e948fa0292eec2ea7f15f899722334348c8ea5b9"
+    :revision => "51c626b37c4e4bff6dfe23d8566751ef3f827870"
   head "https://github.com/kyma-incubator/kyma-cli.git"
 
   depends_on "dep" => :build
