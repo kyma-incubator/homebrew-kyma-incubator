@@ -26,4 +26,10 @@ class KymaCli < Formula
       assert_match "controls a Kyma cluster.", output
     end
   end
+
+  def caveats
+    <<~EOS
+      Happy Kyma-ing! Type \033[1;31mkyma help\033[0m to start
+      EOS
+  end
 end
