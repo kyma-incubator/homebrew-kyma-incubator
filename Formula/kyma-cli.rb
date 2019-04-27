@@ -2,8 +2,8 @@ class KymaCli < Formula
   desc "Kyma command-line interface"
   homepage "https://kyma-project.io"
   url "https://github.com/kyma-incubator/kyma-cli.git",
-    :tag => "v0.5.1",
-    :revision => "0d61b9de00b7b6771178049e9b770e624f848bb0"
+    :tag => "v0.6.0",
+    :revision => "d71949743bf458f42e32bb114aa6b7a6a1a3437b"
   head "https://github.com/kyma-incubator/kyma-cli.git"
 
   depends_on "dep" => :build
