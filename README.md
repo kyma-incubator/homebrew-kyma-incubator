@@ -1,6 +1,9 @@
 ## Homebrew formulas for kyma-incubator projects
 Use this repo to provide homebrew formulas to the kyma-incubator projects and tools
 
+### Prerequisites
+Make sure you have [brew](https://brew.sh/) and [xcode command line tools](https://stackoverflow.com/questions/9329243/xcode-install-command-line-tools) installed
+ 
 ### Installation
 Add the this repo as a brew tap: `brew tap kyma-incubator/kyma-incubator`
 
