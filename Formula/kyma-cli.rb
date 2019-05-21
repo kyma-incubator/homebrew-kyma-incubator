@@ -1,17 +1,17 @@
 class KymaCli < Formula
   desc "Kyma command-line interface"
   homepage "https://kyma-project.io"
-  url "https://github.com/kyma-incubator/kyma-cli.git",
-    :tag => "v0.6.1",
-    :revision => "0cd0457f1caa46c13b280c09e353c5b10ef8e85a"
-  head "https://github.com/kyma-incubator/kyma-cli.git"
+  url "https://github.com/kyma-project/cli.git",
+    :tag => "v0.7.0",
+    :revision => "07d1041389d1cb0b8a9e69cda40e3afa762bbc72"
+  head "https://github.com/kyma-project/cli.git"
 
   depends_on "dep" => :build
   depends_on "go" => :build
 
   def install
     ENV["GOPATH"] = buildpath
-    bin_path = buildpath/"src/github.com/kyma-incubator/kyma-cli/"
+    bin_path = buildpath/"src/github.com/kyma-project/cli/"
     bin_path.install Dir["*"]
 
     cd bin_path do
